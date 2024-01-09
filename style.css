@@ -1,0 +1,476 @@
+* {
+	box-sizing: border-box;
+	font-family: "Fantasy", serif;
+}
+
+body {
+	background-color: #9DFFE6;
+	margin: 0;
+}
+	
+#head {
+	padding: 10px; 
+	background-color: #2FC4F6;
+}
+
+.header-name {
+  font-family: Georgia,Verdana, Arial,sans-serif;
+	background-color: #2FC4F6;
+	border: 0px;
+	border-width: 40%;
+  margin:0;
+  color: #455A42;
+  padding: 15px 20px ;
+  text-shadow: 2px 2px white;
+}
+
+#logo {
+	float: left;
+	margin: 10px;
+}
+	
+#menu {
+	display: flex;
+	flex-direction: row;
+	background-color: #7DDFFF;
+	justify-content: right;
+}
+
+#menu div {
+  padding: 10px 0;
+  font-weight: bold;
+}
+
+#menu div a {
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+  color: #455A42;
+  text-shadow: 1px 1px white;
+}
+
+#menu div a:hover {
+  color: white;
+  text-shadow: 1px 1px #455A42;
+  padding:10px 5px;
+  background-color: #3666FF;
+  text-decoration: none;
+}
+
+#contents h1 {
+	color: #1E6175;
+	font-family: 'Times New Roman', serif;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+	
+#contents h2 {
+	color: #1E6175;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}	
+	
+.description {
+  padding: 10px 30px;
+	background-color: peachpuff;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 15px;
+	margin: 0 auto 30px;
+	display: flex;
+  justify-content: center;
+}
+
+.description:hover {
+  transform:scale(1.2,1.2);
+}
+  
+.description p{
+  text-indent: 10px; 
+  text-align: justify;
+}
+
+.vid-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.vid {
+  width:450px;
+  height:320px;
+}
+
+#line1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.chem {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 30px 20px;
+	background-color: peachpuff;
+}
+
+.chem:hover{
+  transform: scale(1.5,1.5);
+}
+
+.bio {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+  padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 30px 20px;
+	background-color: peachpuff;
+}
+
+.bio:hover{
+  transform: scale(1.5,1.5);
+}
+
+#line2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.phy {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+	padding: 20px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 30px 20px;
+	background-color: peachpuff;
+}
+
+.phy:hover{
+  transform: scale(1.5,1.5);
+}
+
+.eng {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 30px 20px;
+	background-color: peachpuff;
+}
+
+.eng:hover{
+  transform: scale(1.5,1.5);
+}
+
+#line3 {
+  display: flex;
+  flex-direction: row;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+.cs {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+  margin: 10px 30px 0px;
+	background-color: peachpuff;
+}
+
+.cs:hover{
+  transform: scale(1.5,1.5);
+}
+
+.dost {
+	border: 2px solid black;
+	border-radius: 5px 15px ;
+	width: 25%;
+	padding: 30px 20px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 10px 30px 0px;
+	background-color: peachpuff;
+}
+
+.dost:hover{
+  transform: scale(1.5,1.5);
+}
+
+#contents a {
+  text-decoration: none;
+	color: black;
+}
+	
+.details {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.details div {
+	justify-content: center;
+	width: 320px;
+	text-align: center;
+	padding: 10px 30px 30px;
+	border-radius: 10px;
+	background-color: #84E4FF;
+	margin: 10px;
+}
+
+.details p {
+  font-family: "Fantasy", serif;
+	justify-content: center;
+	text-align: justify;
+}
+	
+.sprite {
+  margin: 50px 0 100px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+	
+.fb {
+	background: url('../images/sprite.png') no-repeat 0 -110px;
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+}
+
+.fb:hover{
+  background: url('../images/sprite.png') no-repeat 0 0;
+	width: 100px;
+	height: 100px;
+	margin-right: 50px;
+}
+
+.ig {
+	background: url('../images/sprite.png') no-repeat -315px -110px;
+	width: 100px;
+	height: 100px;
+	margin: 0 30px;
+}
+
+.ig:hover{
+  background: url('../images/sprite.png') no-repeat -315px 0;
+	width: 100px;
+	height: 100px;
+	margin: 0 30px;
+}
+
+.x {
+	background: url('../images/sprite.png') no-repeat -105px -110px;
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+}
+
+.x:hover{
+  background: url('../images/sprite.png') no-repeat -105px 0;
+	width: 100px;
+	height: 100px;
+	margin-left: 50px;
+}
+
+.description2 {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+	margin: 0 auto 10px;
+	text-align: justify;
+	padding: 10px;
+}
+
+.heading1 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://images.theconversation.com/files/121885/original/image-20160510-20731-1pf8nwv.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.heading2 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://cdn.vectorstock.com/i/1000x1000/76/70/genetics-and-chemistry-biology-seamless-pattern-vector-42737670.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.heading3 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://www.thoughtco.com/thmb/07YwPM-MRAk2J4Nn7S1JncpcQA8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/quantum-physics-formulas-over-blackboard-187852370-579632175f9b58173bbafc77-5c26a34a46e0fb0001390645.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.heading4 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://www.thoughtco.com/thmb/wkdSedlCJiHbF07Ky9gQ-RCeOWs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/calculus-on-blackboard-79338340-5be4695946e0fb0026d6856f.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.heading5 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 50%;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://static1.bigstockphoto.com/5/3/3/large1500/335448619.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.heading6 {
+	color: white;
+	text-shadow: 2px 2px black;
+	font-size: 30px;
+	font-weight: bold;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 2px solid black;
+	width: 500px;
+	border-radius: 25px ;
+	margin: 20px auto 10px;
+	text-align: center;
+	padding: 20px;
+	background-image: url("https://www.rappler.com/tachyon/r3-assets/612F469A6EA84F6BAE882D2B94A4B421/img/CB6D0317771A41C3AF10CB42FACE151D/dost-sei-march-14-2019-02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+	
+.list {
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+.course {
+	text-align: center;
+	display: inline-block;
+	text-align: left;
+	background-color: #ABFFAA;
+	border: 2px outset black;
+	border-radius: 15px 50px;
+	box-shadow: 5px 5px 5px 6px darkseagreen;
+}
+	  
+li {
+	font-size: 20px;
+	padding-right: 10px;
+}
+	  
+li:first-of-type{
+  border-radius: 0 100px 0 0;
+}
+	  
+li:nth-of-type(even){
+	background-color: lightsalmon;
+}
+
+#bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFDE91;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+#bar div p{
+  margin: 5px auto;
+  font-weight: bold;
+  color: #B0578D;
+}
